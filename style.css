@@ -105,12 +105,31 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
-.wrapepr .form-box{
+.wrapper .form-box{
     width: 100%;
     padding: 40px;
 }
+
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background:#162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
 
 .form-box h2{
     font-size: 2em;
@@ -197,15 +216,17 @@ header{
     outline: none;
     border-radius: 6px;
     cursor: pointer;
+    color: #fff 4;
 }
 
 
 .login-register{
     font-size: .9em;
-    color: #162938;
+    color: #162938; 
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
+    
 }
 
 .login-register p a{
